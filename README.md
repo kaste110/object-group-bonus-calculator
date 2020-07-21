@@ -22,16 +22,13 @@ The company is providing you with a few samples of employee data of how their da
 ### Employee Array
 Each **Employee** currently is configured in this way:
 
+Loop over the `employees` array and do the following:
 * The `name` property holds the employees name.
 * The `employeeNumber` property has their employee number.
 * The `annualSalary` property contains their base annual salary.
 * The `reviewRating` property contains their review rating.
 
-## Processing Employee Bonuses
-
-Loop over the `employees` array and do the following:
-
-* use each employee object as the input to the function described below.
+use each employee object as the input to the function described below.
 * `console.log` the results of each iteration.
 
 ## Function Logic
@@ -41,7 +38,11 @@ Write a declared function that takes in one **Employee** object (as an argument 
 * The `name` property should contain the employee's name.
 * The `bonusPercentage` property should contain the bonus percentage the employee is to receive. See section below for calculation instructions.
 * The `totalCompensation` property should be the adjusted annual compensation (base annual + bonus)
-* The `totalBonus` should be the employee's total bonus rounded to the nearest dollar.
+* The `totalBonus` should be the employee's total bonus rounded to the nearest dollar.## Processing Employee Bonuses
+
+
+
+*
 
 ### Individual Bonus calculation
 - Those who have a rating of a 2 or below should not receive a bonus.
